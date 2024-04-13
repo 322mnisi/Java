@@ -1,12 +1,21 @@
 public class ParamTest {
-    public static void main(String[] args) {
-        String no1 = "30155";
-        String no2 = "8469";
-        String no3 = "1552";
-        
-        long newLong = Long.parseLong(no1,no2,no3);
-        //Long number = no1 + no2 + no3;
 
-        System.out.println(no1 * no2 * no3);
+    public static void main(String[] args) {
+        String [] townships = {"Thembisa", "Diepsloot", "Alex", "Zonkezizwe"};
+
+        String townName = findLongestName(townships);
+        System.out.println( townName);
+    }
+
+    public static String findLongestName(String [] townships){
+        int size = townships.length;
+        String longestName = townships[0];
+
+        for(int i = 0; i <= 3; i++){
+            if(townships[i].length() > longestName.length()){
+            longestName = townships[i];
+        }}
+
+        return longestName;
     }
 }
