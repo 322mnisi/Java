@@ -1,21 +1,17 @@
 import java.util.Scanner;
 public class Prompter {
-	public static String prompter(String msg) {
-	 Scanner inName = new Scanner(System.in);
-     System.out.println(msg);
-		return inName.next();
+	public static String prompter(String msg){
+	 
+	 System.out.println(msg);
+	 Scanner prompt = new Scanner(System.in);
+	 String inp = prompt.next();
+	 return inp;
 
-	 Scanner inSurname = new Scanner(System.in);
-     System.out.println(msg);
-		return inSurname.next();
+	 // System.out.println(msg1);
+	 // Scanner surname = new Scanner(System.in);
+	 // String sur = prompt.next();
+	 // return sur;
 
-	 // Scanner inBirthDate = new Scanner(System.in);
-     // System.out.println(msg);
-	// 	return inBirthDate.next();
-
-	 // Scanner inDistance = new Scanner(System.in);
-     // System.out.println(msg);
-	// 	return inDistance.next();
 
 	}
 
