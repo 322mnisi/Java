@@ -1,8 +1,8 @@
 public class NumberValidator {
-	public static boolean numberValidator(String number){
+	public static boolean numberValidator(String distance){
 
-    if (number != null && !number.isEmpty()){
-    	for (char c:number.toCharArray()){
+    if (distance != null && !distance.isEmpty()){
+    	for (char c:distance.toCharArray()){
     		if (!Character.isDigit(c)){
     			return false;
     		}

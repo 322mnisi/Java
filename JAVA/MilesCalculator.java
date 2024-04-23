@@ -1,10 +1,9 @@
 public class MilesCalculator {
-	public static void miles(){
+	public static void milesCalculator(String distance){
 
-                 String distance_from_store = Prompter.prompter("How far is your favourite store from your home?");
-                 Double distance_in_mile = Double.parseDouble(distance_from_store);
-                 Double distance = distance_in_mile / 1.6 ;
-                 System.out.println("You are " + distance + " miles" + " away from the shop");
+                 Double kilos = Double.parseDouble(distance);
+                 Double distance_in_mile = kilos / 1.6 ;
+                 System.out.println("You are " + distance_in_mile + " miles" + " away from the shop");
 
 	}
 }

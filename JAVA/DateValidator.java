@@ -1,12 +1,12 @@
 public class DateValidator {
-	public static Boolean main(String date){
+	public static Boolean datevalidator(String birthdate){
 
 
      //String date = Prompter.prompter("Enter your date of birth (DD/MM/YYYY):");
-		if (!date.matches("\\d{2}/\\d{2}/\\d{4}")){
+		if (!birthdate.matches("\\d{2}/\\d{2}/\\d{4}")){
 			return false;
             }
-			String[] parts = date.split("/");
+			String[] parts = birthdate.split("/");
 			int day = Integer.parseInt(parts[0]);
 			int month = Integer.parseInt(parts[1]);
 			int year = Integer.parseInt(parts[2]);

@@ -7,13 +7,5 @@ public class Prompter {
 	 String inp = prompt.next();
 	 return inp;
 
-	 // System.out.println(msg1);
-	 // Scanner surname = new Scanner(System.in);
-	 // String sur = prompt.next();
-	 // return sur;
-
-
 	}
-
-
-	}
+}
