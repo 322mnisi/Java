@@ -1,5 +1,5 @@
 public class NumberValidator {
-	public static boolean numberValidator(String distance){
+	public static Boolean numberValidator(String distance){
 
     if (distance != null && !distance.isEmpty()){
     	for (char c:distance.toCharArray()){
