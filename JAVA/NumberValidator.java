@@ -1,16 +1,12 @@
 public class NumberValidator {
-	public static Boolean numberValidator(String distance){
+	public static void numberValidator(String distance){
 
-     if (distance != null && !distance.isEmpty()){
-    	for (char c:distance.toCharArray()){
-    		if (!Character.isDigit(c)){
-    			return false;
-    		}
-    	}
-    	return false;
-        } else {
-    	return false;
-        }
-
+		int range = Integer.parseInt(distance);
+		
+		 if (range < 0 || range > 32000){
+		 	System.out.println("Distance is not valid!!! Exiting");
+            System.exit(0);
+		 }
+            else {}
+		}
 	}
-}
