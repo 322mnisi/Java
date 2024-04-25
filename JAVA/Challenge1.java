@@ -31,11 +31,11 @@ public class Challenge1 {
      
                  double distance_in_mile = distance_from_store/1.6 ;
                  System.out.println(distance_in_mile + " miles");
-                 System.out.println(distance_from_store*100 + " meters");
-                 System.out.println(age*31536000 + " age in seconds");
-                 long milliSecondsAge = 31556952000l ;
-                 System.out.println(age*milliSecondsAge + " age in milliseconds");
-                 String hexadecimalAge = Long.toHexString(milliSecondsAge);
-                 System.out.println(hexadecimalAge + " age in hexadecimal");
+                 //System.out.println(distance_from_store*100 + " meters");
+                 //System.out.println(age*31536000 + " age in seconds");
+                 //long milliSecondsAge = 31556952000l ;
+                 //System.out.println(age*milliSecondsAge + " age in milliseconds");
+                 //String hexadecimalAge = Long.toHexString(milliSecondsAge);
+                 //System.out.println(hexadecimalAge + " age in hexadecimal");
        }
 }
