@@ -3,7 +3,7 @@ public class IfTest3 {
         int a = 5;
         int b = 2;
        
-        if(a != b && b == 3){
+        if(a != b && b <= 3){
             System.out.println("COOL");
         }
        
